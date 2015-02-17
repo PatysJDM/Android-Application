@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="senzory">
+        <item>APS-C (15 x 23 mm)</item>
+        <item>4/3 (13 x 17,3 mm)</item>
+        <item>Film (24 x 36 mm)</item>
+    </string-array>
+    <string-array name="jednotky">
+        <item>mm</item>
+        <item>cm</item>
+        <item>m</item>
+    </string-array>
+</resources>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#404040"
+    tools:context="com.example.patys.photographycalculator.MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hloubka ostrosti"
+            android:id="@+id/btn_hloubka"
+            android:layout_weight="0.04"
+            android:background="#ff8b00"
+            android:textSize="20dp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zorný úhel"
+            android:id="@+id/btn_uhel"
+            android:layout_weight="0.04"
+            android:background="#ffbb00"
+            android:textSize="20dp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mezikroužky"
+            android:id="@+id/btn_mezikrouzky"
+            android:layout_weight="0.04"
+            android:background="#c9f600"
+            android:textSize="20dp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dosah blesku"
+            android:id="@+id/btn_blesk"
+            android:layout_weight="0.04"
+            android:background="#00c618"
+            android:textSize="20dp"
+            android:layout_margin="2dp" />
+
+    </LinearLayout>
+</RelativeLayout>
